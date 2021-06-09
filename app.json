@@ -1,0 +1,50 @@
+{
+	"expo": {
+		"name": "Demo-LPB",
+		"slug": "demo-v1",
+		"privacy": "public",
+		"sdkVersion": "41.0.0",
+		"platforms": ["ios", "android"],
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "assets/config/icon.png",
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
+		"assetBundlePatterns": ["assets/images/*", "assets/icons/*"],
+		"ios": {
+			"supportsTablet": false,
+			"bundleIdentifier": "host.exp.expo",
+			"splash": {
+				"backgroundColor": "#9FD4D9",
+				"resizeMode": "cover",
+				"image": "assets/config/splash.png"
+			},
+			"infoPlist": {
+				"NSCameraUsageDescription": "This app uses the camera to scan pictures on bottle of wines."
+			}
+		},
+		"android": {
+			"package": "host.exp.expo",
+			"versionCode": 1,
+			"splash": {
+				"backgroundColor": "#9FD4D9",
+				"resizeMode": "cover",
+				"ldpi": "assets/config/splash-hdpi.png",
+				"mdpi": "assets/config/splash-mdpi.png",
+				"hdpi": "assets/config/splash-hdpi.png",
+				"xhdpi": "assets/config/splash-xhdpi.png",
+				"xxhdpi": "assets/config/splash-xxhdpi.png",
+				"xxxhdpi": "assets/config/splash-xxxhdpi.png"
+			},
+			"adaptiveIcon": {
+				"foregroundImage": "assets/config/ic_launcher.png",
+				"backgroundColor": "#0F93A1"
+			}
+		},
+		"description": "Demo V1 LPB",
+		"notification": {
+			"icon": "assets/config/notification-icon.png"
+		}
+	}
+}
